@@ -1,0 +1,117 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00c3ff;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            font-size: 16px;
+            background: #00c3ff;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>My Website</h2>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Welcome!</h1>
+    <p>This is a simple HTML starter site.</p>
+    <button onclick="alert('Button Clicked!')">Get Started</button>
+</div>
+
+<div class="section">
+    <h2>About</h2>
+    <p>You can edit this section with your own content.</p>
+</div>
+
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+<!-- AI Chat Widget -->
+<div id="ai-chat-widget"></div>
+
+<script>
+  (function() {
+    var script = document.createElement('script');
+    script.src = 'https:/.aizino.com/api/widget.js';
+    script.setAttribute('data-bot-id', '019c6c02-56cf-7a93-9f2b-fdee9ec7d5ea');
+    script.setAttribute('data-theme', 'light');
+    script.setAttribute('data-position', 'bottom-right');
+    script.setAttribute('data-primary-color', '#4F46E5');
+    script.setAttribute('data-width', '350px');
+    script.setAttribute('data-height', '500px');
+    script.async = true;
+    document.head.appendChild(script);
+  })();
+</script>
+</body>
+</html>
